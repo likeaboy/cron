@@ -26,4 +26,7 @@ cron模块org.jrocky.cron.job.support.TimedTaskManager封装了ScheduledTaskRegi
 * 支持取消正在执行的定时任务，具体对应接口org.jrocky.cron.job.core.ISchedulingLifeCycle的cancel方法；
 * 支持唤醒取消的任务，具体对应接口org.jrocky.cron.job.core.ISchedulingLifeCycle的reCommit方法；
 
-
+## 测试：
+运行
+org.jrocky.cron.job.test.TestRunner进行模拟测试，该测试类采用线程池，模拟前端用户多线程提交任务，同时启动
+TestRemoveAndRecommitRunnable线程，在运行过程中执行cancel任务以及recommit任务，根据log观察运行结果
