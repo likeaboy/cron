@@ -1,0 +1,1448 @@
+14:14:49.021 [pool-1-thread-3] INFO  o.j.c.job.support.TimedTaskManager - commit timedTask : LAB2
+14:14:49.021 [pool-1-thread-1] INFO  o.j.c.job.support.TimedTaskManager - commit timedTask : LAB0
+14:14:49.021 [pool-1-thread-2] INFO  o.j.c.job.support.TimedTaskManager - commit timedTask : LAB1
+14:14:49.025 [Thread-1] INFO  o.j.c.job.support.ReschedulingThread - take timedTaskLAB0
+14:14:49.025 [main] INFO  org.jrocky.cron.job.test.TestRunner - LAB0 true
+14:14:49.025 [main] INFO  org.jrocky.cron.job.test.TestRunner - LAB1 true
+14:14:49.025 [main] INFO  org.jrocky.cron.job.test.TestRunner - LAB2 true
+14:14:49.027 [Thread-1] INFO  o.jrocky.cron.job.support.CronUtils - expresson ：0 0/1 * * * * * will be process...
+14:14:49.044 [Thread-1] INFO  o.j.c.job.support.ReschedulingThread - do schedule cron task...
+14:14:49.047 [Thread-1] INFO  o.j.c.job.support.ReschedulingThread - take timedTaskLAB1
+14:14:49.047 [Thread-1] INFO  o.jrocky.cron.job.support.CronUtils - expresson ：0 0/1 * * * * * will be process...
+14:14:49.048 [Thread-1] INFO  o.j.c.job.support.ReschedulingThread - do schedule cron task...
+14:14:49.048 [Thread-1] INFO  o.j.c.job.support.ReschedulingThread - take timedTaskLAB2
+14:14:49.048 [Thread-1] INFO  o.jrocky.cron.job.support.CronUtils - expresson ：0 0/1 * * * * * will be process...
+14:14:49.048 [Thread-1] INFO  o.j.c.job.support.ReschedulingThread - do schedule cron task...
+14:14:59.027 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:14:59.027 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:14:59.027 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:15:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:15:00 LAB1
+14:15:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:15:00.005 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:15:00 LAB2
+14:15:00.005 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:15:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:15:00 LAB0
+14:15:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:15:09.027 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:15:09.027 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:15:09.027 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:15:19.028 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:15:19.028 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:15:19.028 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:15:29.028 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:15:29.028 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:15:29.028 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:15:39.028 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:15:39.028 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:15:39.030 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:15:49.031 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:15:49.032 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:15:49.032 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:15:49.032 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - cancel task id:LAB0
+14:15:59.033 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:15:59.033 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:15:59.033 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:16:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:16:00 LAB1
+14:16:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:16:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:16:00 LAB2
+14:16:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:16:09.034 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:16:09.034 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:16:09.035 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:16:19.035 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:16:19.035 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:16:19.035 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:16:29.035 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:16:29.035 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:16:29.035 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:16:39.036 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:16:39.036 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:16:39.036 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:16:49.036 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:16:49.036 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:16:49.036 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:16:59.036 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:16:59.036 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:16:59.036 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:17:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:17:00 LAB1
+14:17:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:17:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:17:00 LAB2
+14:17:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:17:09.037 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:17:09.037 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:17:09.037 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:17:19.037 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:17:19.037 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:17:19.037 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:17:29.038 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:17:29.038 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:17:29.038 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:17:39.038 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:17:39.038 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:17:39.038 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:17:49.039 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : CANCELED
+14:17:49.039 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:17:49.039 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:17:49.039 [Thread-2] INFO  o.j.c.job.support.TimedTaskManager - commit timedTask : LAB0
+14:17:49.039 [Thread-1] INFO  o.j.c.job.support.ReschedulingThread - take timedTaskLAB0
+14:17:49.039 [Thread-1] INFO  o.jrocky.cron.job.support.CronUtils - expresson ：0 0/1 * * * * * will be process...
+14:17:49.040 [Thread-1] INFO  o.j.c.job.support.ReschedulingThread - do schedule cron task...
+14:17:49.040 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - recommit task id:LAB0
+14:17:59.041 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:17:59.041 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:17:59.041 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:18:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:18:00 LAB1
+14:18:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:18:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:18:00 LAB0
+14:18:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:18:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:18:00 LAB2
+14:18:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:18:09.043 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:18:09.043 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:18:09.043 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:18:19.044 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:18:19.044 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:18:19.044 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:18:29.044 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:18:29.044 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:18:29.044 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:18:39.045 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:18:39.046 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:18:39.046 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:18:49.046 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:18:49.046 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:18:49.046 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:18:59.046 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:18:59.046 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:18:59.046 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:19:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:19:00 LAB1
+14:19:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:19:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:19:00 LAB0
+14:19:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:19:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:19:00 LAB2
+14:19:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:19:09.047 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:19:09.047 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:19:09.047 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:19:19.047 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:19:19.047 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:19:19.047 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:19:29.048 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:19:29.048 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:19:29.048 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:19:39.048 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:19:39.048 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:19:39.048 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:19:49.049 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:19:49.049 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:19:49.049 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:19:59.049 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:19:59.049 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:19:59.049 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:20:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:20:00 LAB1
+14:20:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:20:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:20:00 LAB0
+14:20:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:20:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:20:00 LAB2
+14:20:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:20:09.050 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:20:09.050 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:20:09.050 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:20:19.050 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:20:19.050 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:20:19.050 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:20:29.051 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:20:29.051 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:20:29.051 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:20:39.051 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:20:39.051 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:20:39.051 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:20:49.052 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:20:49.052 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:20:49.052 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:20:59.052 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:20:59.052 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:20:59.052 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:21:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:21:00 LAB2
+14:21:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:21:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:21:00 LAB1
+14:21:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:21:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:21:00 LAB0
+14:21:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:21:09.053 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:21:09.053 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:21:09.053 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:21:19.053 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:21:19.053 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:21:19.053 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:21:29.054 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:21:29.054 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:21:29.054 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:21:39.054 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:21:39.054 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:21:39.054 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:21:49.055 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:21:49.056 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:21:49.056 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:21:59.056 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:21:59.057 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:21:59.057 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:22:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:22:00 LAB2
+14:22:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:22:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:22:00 LAB1
+14:22:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:22:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:22:00 LAB0
+14:22:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:22:09.058 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:22:09.058 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:22:09.058 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:22:19.058 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:22:19.058 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:22:19.058 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:22:29.059 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:22:29.059 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:22:29.059 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:22:39.059 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:22:39.059 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:22:39.059 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:22:49.060 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:22:49.060 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:22:49.060 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:22:59.060 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:22:59.060 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:22:59.060 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:23:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:23:00 LAB0
+14:23:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:23:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:23:00 LAB2
+14:23:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:23:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:23:00 LAB1
+14:23:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:23:09.061 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:23:09.061 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:23:09.061 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:23:19.061 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:23:19.061 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:23:19.061 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:23:29.062 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:23:29.062 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:23:29.062 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:23:39.063 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:23:39.063 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:23:39.063 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:23:49.063 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:23:49.063 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:23:49.063 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:23:59.064 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:23:59.064 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:23:59.064 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:24:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:24:00 LAB0
+14:24:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:24:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:24:00 LAB1
+14:24:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:24:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:24:00 LAB2
+14:24:00.008 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:24:09.064 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:24:09.064 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:24:09.064 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:24:19.065 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:24:19.065 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:24:19.065 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:24:29.065 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:24:29.065 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:24:29.065 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:24:39.066 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:24:39.066 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:24:39.066 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:24:49.066 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:24:49.066 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:24:49.066 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:24:59.067 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:24:59.067 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:24:59.067 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:25:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:25:00 LAB0
+14:25:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:25:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:25:00 LAB1
+14:25:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:25:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:25:00 LAB2
+14:25:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:25:09.067 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:25:09.067 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:25:09.067 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:25:19.068 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:25:19.068 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:25:19.068 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:25:29.068 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:25:29.068 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:25:29.068 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:25:39.069 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:25:39.069 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:25:39.069 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:25:49.069 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:25:49.069 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:25:49.069 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:25:59.069 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:25:59.069 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:25:59.069 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:26:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:26:00 LAB0
+14:26:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:26:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:26:00 LAB1
+14:26:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:26:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:26:00 LAB2
+14:26:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:26:09.070 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:26:09.070 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:26:09.070 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:26:19.070 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:26:19.070 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:26:19.070 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:26:29.071 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:26:29.071 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:26:29.071 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:26:39.072 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:26:39.072 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:26:39.072 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:26:49.072 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:26:49.072 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:26:49.072 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:26:59.073 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:26:59.073 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:26:59.073 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:27:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:27:00 LAB2
+14:27:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:27:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:27:00 LAB0
+14:27:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:27:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:27:00 LAB1
+14:27:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:27:09.073 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:27:09.073 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:27:09.073 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:27:19.074 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:27:19.074 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:27:19.074 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:27:29.075 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:27:29.076 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:27:29.076 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:27:39.077 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:27:39.077 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:27:39.077 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:27:49.077 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:27:49.077 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:27:49.077 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:27:59.078 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:27:59.078 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:27:59.078 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:28:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:28:00 LAB1
+14:28:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:28:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:28:00 LAB2
+14:28:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:28:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:28:00 LAB0
+14:28:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:28:09.078 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:28:09.078 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:28:09.078 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:28:19.079 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:28:19.079 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:28:19.079 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:28:29.079 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:28:29.079 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:28:29.079 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:28:39.080 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:28:39.080 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:28:39.080 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:28:49.080 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:28:49.080 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:28:49.080 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:28:59.080 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:28:59.080 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:28:59.080 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:29:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:29:00 LAB0
+14:29:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:29:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:29:00 LAB2
+14:29:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:29:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:29:00 LAB1
+14:29:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:29:09.081 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:29:09.081 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:29:09.081 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:29:19.094 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:29:19.094 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:29:19.094 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:29:29.095 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:29:29.095 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:29:29.095 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:29:39.095 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:29:39.095 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:29:39.095 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:29:49.096 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:29:49.096 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:29:49.096 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:29:59.096 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:29:59.096 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:29:59.096 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:30:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:30:00 LAB2
+14:30:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:30:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:30:00 LAB1
+14:30:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:30:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:30:00 LAB0
+14:30:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:30:09.097 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:30:09.097 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:30:09.097 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:30:19.097 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:30:19.097 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:30:19.097 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:30:29.098 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:30:29.098 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:30:29.098 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:30:39.098 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:30:39.098 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:30:39.098 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:30:49.099 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:30:49.099 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:30:49.099 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:30:59.099 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:30:59.099 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:30:59.100 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:31:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:31:00 LAB2
+14:31:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:31:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:31:00 LAB1
+14:31:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:31:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:31:00 LAB0
+14:31:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:31:09.101 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:31:09.101 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:31:09.101 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:31:19.101 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:31:19.101 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:31:19.101 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:31:29.102 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:31:29.102 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:31:29.102 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:31:39.103 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:31:39.103 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:31:39.103 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:31:49.103 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:31:49.103 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:31:49.103 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:31:59.104 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:31:59.104 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:31:59.104 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:32:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:32:00 LAB1
+14:32:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:32:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:32:00 LAB2
+14:32:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:32:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:32:00 LAB0
+14:32:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:32:09.104 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:32:09.104 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:32:09.104 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:32:19.105 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:32:19.105 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:32:19.105 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:32:29.105 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:32:29.105 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:32:29.105 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:32:39.106 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:32:39.106 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:32:39.106 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:32:49.106 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:32:49.106 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:32:49.106 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:32:59.107 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:32:59.107 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:32:59.107 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:33:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:33:00 LAB1
+14:33:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:33:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:33:00 LAB2
+14:33:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:33:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:33:00 LAB0
+14:33:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:33:09.107 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:33:09.107 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:33:09.107 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:33:19.108 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:33:19.108 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:33:19.108 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:33:29.108 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:33:29.108 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:33:29.108 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:33:39.109 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:33:39.109 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:33:39.109 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:33:49.109 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:33:49.109 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:33:49.109 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:33:59.110 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:33:59.110 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:33:59.110 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:34:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:34:00 LAB1
+14:34:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:34:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:34:00 LAB2
+14:34:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:34:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:34:00 LAB0
+14:34:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:34:09.110 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:34:09.110 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:34:09.110 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:34:19.111 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:34:19.112 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:34:19.112 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:34:29.112 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:34:29.112 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:34:29.112 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:34:39.113 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:34:39.113 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:34:39.113 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:34:49.114 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:34:49.114 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:34:49.114 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:34:59.114 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:34:59.114 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:34:59.114 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:35:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:35:00 LAB2
+14:35:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:35:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:35:00 LAB0
+14:35:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:35:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:35:00 LAB1
+14:35:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:35:09.114 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:35:09.114 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:35:09.114 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:35:19.115 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:35:19.115 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:35:19.115 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:35:29.115 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:35:29.115 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:35:29.115 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:35:39.116 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:35:39.116 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:35:39.116 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:35:49.116 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:35:49.116 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:35:49.116 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:35:59.117 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:35:59.117 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:35:59.117 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:36:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:36:00 LAB2
+14:36:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:36:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:36:00 LAB0
+14:36:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:36:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:36:00 LAB1
+14:36:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:36:09.117 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:36:09.117 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:36:09.117 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:36:19.118 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:36:19.118 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:36:19.118 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:36:29.119 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:36:29.119 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:36:29.119 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:36:39.119 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:36:39.119 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:36:39.119 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:36:49.120 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:36:49.120 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:36:49.120 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:36:59.120 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:36:59.120 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:36:59.120 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:37:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:37:00 LAB0
+14:37:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:37:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:37:00 LAB2
+14:37:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:37:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:37:00 LAB1
+14:37:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:37:09.121 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:37:09.121 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:37:09.121 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:37:19.121 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:37:19.121 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:37:19.121 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:37:29.122 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:37:29.122 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:37:29.122 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:37:39.122 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:37:39.122 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:37:39.122 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:37:49.123 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:37:49.123 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:37:49.123 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:37:59.123 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:37:59.123 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:37:59.123 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:38:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:38:00 LAB2
+14:38:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:38:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:38:00 LAB1
+14:38:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:38:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:38:00 LAB0
+14:38:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:38:09.123 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:38:09.123 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:38:09.123 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:38:19.124 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:38:19.124 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:38:19.124 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:38:29.125 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:38:29.125 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:38:29.125 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:38:39.125 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:38:39.125 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:38:39.125 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:38:49.126 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:38:49.126 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:38:49.126 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:38:59.126 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:38:59.126 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:38:59.126 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:39:00.005 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:39:00 LAB2
+14:39:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:39:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:39:00 LAB1
+14:39:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:39:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:39:00 LAB0
+14:39:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:39:09.127 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:39:09.127 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:39:09.127 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:39:19.127 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:39:19.127 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:39:19.127 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:39:29.128 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:39:29.129 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:39:29.129 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:39:39.129 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:39:39.129 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:39:39.129 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:39:49.130 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:39:49.130 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:39:49.130 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:39:59.130 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:39:59.130 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:39:59.130 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:40:00.008 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:40:00 LAB2
+14:40:00.008 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:40:00.008 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:40:00 LAB1
+14:40:00.008 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:40:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:40:00 LAB0
+14:40:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:40:09.130 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:40:09.130 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:40:09.130 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:40:19.131 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:40:19.131 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:40:19.131 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:40:29.131 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:40:29.131 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:40:29.131 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:40:39.132 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:40:39.132 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:40:39.132 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:40:49.133 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:40:49.133 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:40:49.133 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:40:59.133 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:40:59.133 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:40:59.133 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:41:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:41:00 LAB0
+14:41:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:41:00.008 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:41:00 LAB2
+14:41:00.008 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:41:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:41:00 LAB1
+14:41:00.010 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:41:09.133 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:41:09.133 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:41:09.133 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:41:19.134 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:41:19.134 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:41:19.134 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:41:29.134 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:41:29.134 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:41:29.134 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:41:39.135 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:41:39.135 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:41:39.135 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:41:49.135 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:41:49.135 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:41:49.135 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:41:59.136 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:41:59.136 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:41:59.136 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:42:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:42:00 LAB2
+14:42:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:42:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:42:00 LAB1
+14:42:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:42:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:42:00 LAB0
+14:42:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:42:09.136 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:42:09.136 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:42:09.136 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:42:19.137 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:42:19.137 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:42:19.137 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:42:29.137 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:42:29.137 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:42:29.137 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:42:39.138 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:42:39.138 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:42:39.138 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:42:49.138 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:42:49.138 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:42:49.138 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:42:59.139 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:42:59.139 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:42:59.139 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:43:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:43:00 LAB2
+14:43:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:43:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:43:00 LAB1
+14:43:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:43:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:43:00 LAB0
+14:43:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:43:09.140 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:43:09.140 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:43:09.140 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:43:19.140 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:43:19.140 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:43:19.140 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:43:29.141 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:43:29.141 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:43:29.141 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:43:39.141 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:43:39.141 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:43:39.141 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:43:49.142 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:43:49.142 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:43:49.142 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:43:59.142 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:43:59.142 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:43:59.142 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:44:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:44:00 LAB2
+14:44:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:44:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:44:00 LAB1
+14:44:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:44:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:44:00 LAB0
+14:44:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:44:09.143 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:44:09.143 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:44:09.143 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:44:19.143 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:44:19.143 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:44:19.143 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:44:29.144 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:44:29.144 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:44:29.144 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:44:39.144 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:44:39.144 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:44:39.144 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:44:49.145 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:44:49.145 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:44:49.145 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:44:59.145 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:44:59.145 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:44:59.145 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:45:00.005 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:45:00 LAB1
+14:45:00.005 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:45:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:45:00 LAB0
+14:45:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:45:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:45:00 LAB2
+14:45:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:45:09.146 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:45:09.146 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:45:09.146 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:45:19.146 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:45:19.146 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:45:19.146 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:45:29.147 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:45:29.147 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:45:29.147 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:45:39.148 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:45:39.148 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:45:39.148 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:45:49.148 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:45:49.148 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:45:49.148 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:45:59.149 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:45:59.149 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:45:59.149 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:46:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:46:00 LAB1
+14:46:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:46:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:46:00 LAB0
+14:46:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:46:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:46:00 LAB2
+14:46:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:46:09.149 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:46:09.149 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:46:09.149 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:46:19.150 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:46:19.150 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:46:19.150 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:46:29.150 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:46:29.150 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:46:29.150 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:46:39.151 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:46:39.151 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:46:39.151 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:46:49.151 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:46:49.151 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:46:49.151 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:46:59.152 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:46:59.152 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:46:59.152 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:47:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:47:00 LAB1
+14:47:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:47:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:47:00 LAB0
+14:47:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:47:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:47:00 LAB2
+14:47:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:47:09.152 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:47:09.152 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:47:09.152 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:47:19.153 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:47:19.153 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:47:19.153 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:47:29.153 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:47:29.153 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:47:29.153 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:47:39.154 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:47:39.154 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:47:39.154 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:47:49.154 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:47:49.154 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:47:49.154 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:47:59.155 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:47:59.155 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:47:59.155 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:48:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:48:00 LAB1
+14:48:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:48:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:48:00 LAB0
+14:48:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:48:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:48:00 LAB2
+14:48:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:48:09.155 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:48:09.155 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:48:09.155 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:48:19.156 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:48:19.156 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:48:19.156 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:48:29.157 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:48:29.157 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:48:29.157 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:48:39.157 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:48:39.157 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:48:39.157 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:48:49.158 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:48:49.158 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:48:49.158 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:48:59.158 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:48:59.158 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:48:59.158 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:49:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:49:00 LAB2
+14:49:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:49:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:49:00 LAB1
+14:49:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:49:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:49:00 LAB0
+14:49:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:49:09.159 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:49:09.159 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:49:09.159 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:49:19.159 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:49:19.159 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:49:19.159 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:49:29.160 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:49:29.160 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:49:29.160 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:49:39.160 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:49:39.160 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:49:39.160 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:49:49.161 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:49:49.161 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:49:49.161 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:49:59.161 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:49:59.161 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:49:59.161 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:50:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:50:00 LAB2
+14:50:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:50:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:50:00 LAB1
+14:50:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:50:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:50:00 LAB0
+14:50:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:50:09.162 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:50:09.162 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:50:09.162 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:50:19.162 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:50:19.162 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:50:19.162 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:50:29.163 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:50:29.163 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:50:29.163 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:50:39.163 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:50:39.163 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:50:39.163 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:50:49.164 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:50:49.164 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:50:49.164 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:50:59.164 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:50:59.164 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:50:59.164 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:51:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:51:00 LAB0
+14:51:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:51:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:51:00 LAB2
+14:51:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:51:00.004 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:51:00 LAB1
+14:51:00.004 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:51:09.165 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:51:09.165 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:51:09.165 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:51:19.166 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:51:19.166 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:51:19.166 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:51:29.166 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:51:29.166 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:51:29.166 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:51:39.167 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:51:39.167 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:51:39.167 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:51:49.167 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:51:49.167 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:51:49.167 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:51:59.168 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:51:59.168 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:51:59.168 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:52:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:52:00 LAB2
+14:52:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:52:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:52:00 LAB1
+14:52:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:52:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:52:00 LAB0
+14:52:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:52:09.168 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:52:09.168 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:52:09.168 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:52:19.169 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:52:19.169 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:52:19.169 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:52:29.169 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:52:29.169 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:52:29.169 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:52:39.170 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:52:39.170 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:52:39.170 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:52:49.171 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:52:49.171 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:52:49.171 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:52:59.172 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:52:59.172 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:52:59.172 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:53:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:53:00 LAB1
+14:53:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:53:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:53:00 LAB0
+14:53:00.003 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:53:00.005 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:53:00 LAB2
+14:53:00.005 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:53:09.172 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:53:09.172 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:53:09.172 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:53:19.173 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:53:19.173 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:53:19.173 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:53:29.173 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:53:29.173 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:53:29.173 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:53:39.174 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:53:39.174 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:53:39.174 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:53:49.174 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:53:49.174 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:53:49.174 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:53:59.175 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:53:59.175 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:53:59.175 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:54:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:54:00 LAB0
+14:54:00.005 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:54:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:54:00 LAB1
+14:54:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:54:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:54:00 LAB2
+14:54:00.006 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:54:09.176 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:54:09.176 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:54:09.176 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:54:19.176 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:54:19.176 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:54:19.176 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:54:29.177 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:54:29.177 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:54:29.177 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:54:39.177 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:54:39.177 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:54:39.177 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:54:49.178 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:54:49.178 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:54:49.178 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:54:59.178 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:54:59.178 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:54:59.178 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:55:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:55:00 LAB1
+14:55:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:55:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:55:00 LAB2
+14:55:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:55:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:55:00 LAB0
+14:55:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:55:09.179 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:55:09.179 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:55:09.179 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:55:19.179 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:55:19.179 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:55:19.179 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:55:29.180 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:55:29.180 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:55:29.180 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:55:39.180 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:55:39.180 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:55:39.180 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:55:49.181 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:55:49.181 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:55:49.181 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:55:59.181 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:55:59.181 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:55:59.181 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:56:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:56:00 LAB1
+14:56:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:56:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:56:00 LAB2
+14:56:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:56:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:56:00 LAB0
+14:56:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:56:09.182 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:56:09.182 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:56:09.182 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:56:19.182 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:56:19.182 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:56:19.182 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:56:29.183 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:56:29.183 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:56:29.183 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:56:39.183 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:56:39.183 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:56:39.183 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:56:49.184 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:56:49.184 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:56:49.184 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:56:59.185 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:56:59.185 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:56:59.186 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:57:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:57:00 LAB1
+14:57:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:57:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:57:00 LAB2
+14:57:00.007 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:57:00.008 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:57:00 LAB0
+14:57:00.008 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:57:09.186 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:57:09.186 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:57:09.186 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:57:19.187 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:57:19.187 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:57:19.187 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:57:29.189 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:57:29.189 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:57:29.189 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:57:39.190 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:57:39.190 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:57:39.190 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:57:49.191 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:57:49.191 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:57:49.191 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:57:59.191 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:57:59.191 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:57:59.191 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:58:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:58:00 LAB0
+14:58:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:58:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:58:00 LAB1
+14:58:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:58:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:58:00 LAB2
+14:58:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:58:09.192 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:58:09.192 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:58:09.192 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:58:19.192 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:58:19.192 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:58:19.192 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:58:29.193 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:58:29.193 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:58:29.193 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:58:39.194 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:58:39.194 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:58:39.194 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:58:49.194 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:58:49.194 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:58:49.194 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:58:59.195 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:58:59.195 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:58:59.195 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:59:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:59:00 LAB0
+14:59:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:59:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:59:00 LAB1
+14:59:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:59:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 14:59:00 LAB2
+14:59:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+14:59:09.195 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:59:09.195 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:59:09.195 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:59:19.196 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:59:19.196 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:59:19.196 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:59:29.196 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:59:29.196 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:59:29.196 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:59:39.197 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:59:39.197 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:59:39.197 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:59:49.198 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:59:49.198 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:59:49.198 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+14:59:59.198 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+14:59:59.198 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+14:59:59.198 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:00:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:00:00 LAB0
+15:00:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:00:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:00:00 LAB1
+15:00:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:00:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:00:00 LAB2
+15:00:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:00:09.199 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:00:09.199 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:00:09.199 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:00:19.199 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:00:19.199 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:00:19.199 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:00:29.200 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:00:29.200 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:00:29.200 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:00:39.201 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:00:39.201 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:00:39.201 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:00:49.201 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:00:49.201 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:00:49.201 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:00:59.202 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:00:59.202 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:00:59.202 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:01:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:01:00 LAB0
+15:01:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:01:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:01:00 LAB1
+15:01:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:01:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:01:00 LAB2
+15:01:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:01:09.202 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:01:09.202 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:01:09.202 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:01:19.203 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:01:19.203 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:01:19.203 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:01:29.204 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:01:29.204 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:01:29.204 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:01:39.204 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:01:39.204 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:01:39.204 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:01:49.205 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:01:49.205 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:01:49.205 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:01:59.205 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:01:59.205 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:01:59.205 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:02:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:02:00 LAB0
+15:02:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:02:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:02:00 LAB1
+15:02:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:02:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:02:00 LAB2
+15:02:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:02:09.206 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:02:09.206 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:02:09.206 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:02:19.207 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:02:19.207 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:02:19.207 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:02:29.207 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:02:29.207 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:02:29.207 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:02:39.208 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:02:39.208 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:02:39.208 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:02:49.208 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:02:49.208 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:02:49.208 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:02:59.209 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:02:59.209 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:02:59.209 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:03:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:03:00 LAB0
+15:03:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:03:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:03:00 LAB1
+15:03:00.009 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:03:00.011 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:03:00 LAB2
+15:03:00.015 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:03:09.209 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:03:09.209 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:03:09.209 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:03:19.210 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:03:19.210 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:03:19.210 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:03:29.210 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:03:29.210 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:03:29.210 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:03:39.211 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:03:39.211 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:03:39.211 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:03:49.211 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:03:49.211 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:03:49.211 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:03:59.212 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:03:59.212 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:03:59.212 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:04:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:04:00 LAB2
+15:04:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:04:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:04:00 LAB0
+15:04:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:04:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:04:00 LAB1
+15:04:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:04:09.212 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:04:09.212 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:04:09.212 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:04:19.213 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:04:19.213 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:04:19.213 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:04:29.214 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:04:29.214 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:04:29.214 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:04:39.215 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:04:39.215 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:04:39.215 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:04:49.215 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:04:49.215 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:04:49.215 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:04:59.216 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:04:59.216 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:04:59.216 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:05:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:05:00 LAB2
+15:05:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:05:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:05:00 LAB0
+15:05:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:05:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:05:00 LAB1
+15:05:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:05:09.216 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:05:09.216 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:05:09.216 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:05:19.217 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:05:19.217 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:05:19.217 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:05:29.217 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:05:29.217 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:05:29.217 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:05:39.218 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:05:39.218 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:05:39.218 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:05:49.218 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:05:49.218 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:05:49.218 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:05:59.219 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:05:59.219 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:05:59.219 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:06:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:06:00 LAB2
+15:06:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:06:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:06:00 LAB0
+15:06:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:06:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:06:00 LAB1
+15:06:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:06:09.219 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:06:09.220 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:06:09.220 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:06:19.221 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:06:19.221 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:06:19.221 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:06:29.221 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:06:29.221 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:06:29.221 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:06:39.222 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:06:39.222 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:06:39.222 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:06:49.222 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:06:49.222 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:06:49.222 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:06:59.223 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:06:59.223 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:06:59.223 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:07:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:07:00 LAB0
+15:07:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:07:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:07:00 LAB1
+15:07:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:07:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:07:00 LAB2
+15:07:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:07:09.224 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:07:09.224 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:07:09.224 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:07:19.224 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:07:19.224 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:07:19.224 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:07:29.225 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:07:29.225 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:07:29.225 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:07:39.225 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:07:39.225 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:07:39.225 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:07:49.226 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:07:49.226 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:07:49.226 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:07:59.226 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:07:59.226 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:07:59.226 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:08:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:08:00 LAB0
+15:08:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:08:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:08:00 LAB1
+15:08:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:08:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:08:00 LAB2
+15:08:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:08:09.227 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:08:09.227 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:08:09.227 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:08:19.227 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:08:19.227 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:08:19.227 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:08:29.228 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:08:29.229 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:08:29.229 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:08:39.230 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:08:39.230 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:08:39.230 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:08:49.230 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:08:49.230 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:08:49.230 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:08:59.231 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:08:59.231 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:08:59.231 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:09:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:09:00 LAB0
+15:09:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:09:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:09:00 LAB2
+15:09:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:09:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:09:00 LAB1
+15:09:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:09:09.231 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:09:09.231 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:09:09.231 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:09:19.232 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:09:19.232 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:09:19.232 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:09:29.232 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:09:29.232 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:09:29.232 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:09:39.233 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:09:39.233 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:09:39.233 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:09:49.233 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:09:49.233 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:09:49.233 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:09:59.234 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:09:59.234 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:09:59.234 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:10:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:10:00 LAB0
+15:10:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:10:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:10:00 LAB2
+15:10:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:10:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:10:00 LAB1
+15:10:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:10:09.234 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:10:09.234 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:10:09.234 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:10:19.235 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:10:19.235 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:10:19.235 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:10:29.236 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:10:29.236 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:10:29.236 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:10:39.236 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:10:39.236 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:10:39.236 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:10:49.236 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:10:49.236 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:10:49.236 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:10:59.237 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:10:59.237 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:10:59.237 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:11:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:11:00 LAB0
+15:11:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:11:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:11:00 LAB2
+15:11:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:11:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:11:00 LAB1
+15:11:00.001 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:11:09.237 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:11:09.237 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:11:09.237 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:11:19.238 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:11:19.238 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:11:19.238 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:11:29.238 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:11:29.238 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:11:29.238 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:11:39.239 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:11:39.239 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:11:39.239 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:11:49.239 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:11:49.239 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:11:49.239 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:11:59.240 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:11:59.240 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:11:59.240 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:12:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:12:00 LAB0
+15:12:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:12:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:12:00 LAB2
+15:12:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:12:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:12:00 LAB1
+15:12:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:12:09.241 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:12:09.241 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:12:09.241 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:12:19.241 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:12:19.241 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:12:19.241 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:12:29.242 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:12:29.242 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:12:29.242 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:12:39.242 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:12:39.242 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:12:39.242 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:12:49.243 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:12:49.243 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:12:49.243 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:12:59.243 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:12:59.243 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:12:59.243 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:13:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:13:00 LAB0
+15:13:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:13:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:13:00 LAB2
+15:13:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:13:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:13:00 LAB1
+15:13:00.000 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:13:09.247 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:13:09.247 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:13:09.247 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:13:19.248 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:13:19.248 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:13:19.248 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:13:29.248 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:13:29.248 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:13:29.248 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:13:39.249 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:13:39.249 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:13:39.249 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:13:49.249 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:13:49.249 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:13:49.249 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:13:59.250 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:13:59.250 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:13:59.250 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:14:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:14:00 LAB0
+15:14:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:14:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:14:00 LAB2
+15:14:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:14:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - test job runing... moni akka proxy send msg...2017-08-30 15:14:00 LAB1
+15:14:00.002 [ThreadPoolTaskScheduler-1] INFO  o.j.cron.job.test.TestJobRunable - moni akka proxy send msg...
+15:14:09.251 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:14:09.251 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:14:09.251 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
+15:14:19.251 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB0 state : RUNNING
+15:14:19.251 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB2 state : RUNNING
+15:14:19.251 [Thread-2] INFO  o.jrocky.cron.job.support.CronUtils - taskId : LAB1 state : RUNNING
