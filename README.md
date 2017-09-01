@@ -2,10 +2,11 @@
 基于spring-scheduing扩展的任务调度模块
 
 ## 背景：
-由于产品需求，需要根据用户在界面的配置，生成定时任务，并且管理定时任务。
-产品项目中已集成spring框架，而spring框架提供配置定时任务的功能，也就是我们常用的Cron注解，
-由此引出思路，如何复用spring scheduing模块？将在程序中定义好的定时任务变成可根据用户配置动态生成定时任务，并进行管理？
-基于以上思路，本人研读了spring框架scheduing模块，该模块具体实现了Spring Cron注解的功能，其中关键核心类有org.springframework.scheduling.config.ScheduledTaskRegistrar（任务注册器）、org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler（任务执行容器）、
+由于产品需求，需要对用户提交的任务进行动态管理，于是联想到spring的cron，通过研读spring-scheduing模块源码，了解原理，决定复用并进行扩展。 
+注意：对任务调度有更高要求的同学，可以使用Quartz，这是一个开源的作业调度框架，为在 Java 应用程序中进行作业调度提供了简单却强大的机制。
+
+scheduing模块模块具体实现了Spring Cron注解的功能，其中关键核心类有
+org.springframework.scheduling.config.ScheduledTaskRegistrar（任务注册器）、org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler（任务执行容器）、
 org.springframework.scheduling.config.CronTask.CronTask（定时任务）、
 org.springframework.scheduling.support.CronTrigger.CronTrigger（定时任务触发器）、
 org.springframework.scheduling.support.CronSequenceGenerator（cron表达式解析器）、
